@@ -17,7 +17,7 @@ header {
     padding-top: 23px;
   }
   li {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -105,7 +105,19 @@ footer {
   width: 100%;
 }
 
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
 
+  .top-nav-collapse {
+    /* Customize the look and feel of the collapsed top nav here */
+    padding: 0;
+  }
+}
 
 
 
