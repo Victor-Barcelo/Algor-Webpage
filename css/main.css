@@ -1,0 +1,79 @@
+body {
+  background-color: mintcream;
+}
+header nav {
+  padding: 10px;
+}
+header ul {
+  padding-top: 23px;
+}
+header li {
+  font-size: 18px;
+}
+.article-text {
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+article {
+  margin-bottom: 500px;
+}
+#intro {
+  margin-top: 200px;
+}
+#intro p {
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+#marketing-explanation p {
+  padding-top: 90px;
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+#marketing-explanation img {
+  width: 400px;
+  height: 300px;
+}
+#benefits img {
+  width: 300px;
+  height: 300px;
+}
+#benefits li {
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 2em;
+}
+#why-algor p {
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+  font-size: 20px;
+}
+#why-algor img {
+  width: 200px;
+  height: 300px;
+  padding-top: 30px;
+}
+#how-works p {
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+  font-size: 20px;
+}
+#how-works img {
+  width: 600px;
+  padding-top: 30px;
+}
+#spv img {
+  width: 300px;
+}
+#spv li {
+  font-size: 30px;
+  font-family: arial, helvetica, verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 2em;
+}
+footer {
+  height: 300px;
+  background-color: #000000;
+  width: 100%;
+}

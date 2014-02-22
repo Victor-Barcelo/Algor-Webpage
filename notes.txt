@@ -1,0 +1,18 @@
+Static- Works in relation to pageflow (default)
+Relative- Works in relation to pageflow and allows top, left, bottom, right properties
+Absolute- working in relation to the page itself and is taken out of pageflow
+Fixed- working in relation to the page itself and is taken out of pageflow
+
+z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).
+
+div1-absolute inside a div2-relative, div1 is absolute en relation to div2
+
+* Parallax:
+    bg: set as fixed, we change top with js (relate scroll -> top)
+    other elements: set as absolute inside a fixed container, we change their tops with js (relate scroll -> top)
+    ->So, we are fixing elements and moving them manipulating their top css property. This movement is linked
+    to some other parameter, such as a scroll
+    ->We can choose to not manipulate a dynamic element, ie that one is related to scroll, and manipulate the others
+    related to this ones position.
+
+    ->fine tune. padding-top to imgs and articles (same amount) why?
