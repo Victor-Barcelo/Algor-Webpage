@@ -14,8 +14,13 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+    <!--Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <!--Own CSS-->
     <link rel="stylesheet" href="css/main.css"/>
+
+
 
     <style>
     </style>
@@ -23,42 +28,6 @@
 </head>
 <body>
 
-<!--<div class="container">-->
-<div class="container">
-
-    <!--<header>-->
-        <!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">-->
-            <!--<div class="container-fluid">-->
-                <!--&lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;-->
-                <!--<div class="navbar-header">-->
-                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse"-->
-                            <!--data-target="#bs-example-navbar-collapse-1">-->
-                        <!--<span class="sr-only">Toggle navigation</span>-->
-                        <!--<span class="icon-bar"></span>-->
-                        <!--<span class="icon-bar"></span>-->
-                        <!--<span class="icon-bar"></span>-->
-                    <!--</button>-->
-                <!--</div>-->
-            <!--</div>-->
-
-            <!--&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
-            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">-->
-                <!--<a href=""><img style="width: 300px ; height: 100px; float: left;" src="img/logo.png" alt=""/></a>-->
-                <!--&lt;!&ndash;<div style="margin-bottom:10px; display: inline ">&ndash;&gt;-->
-                <!--&lt;!&ndash;<img style="width: 300px ; height: 100px; display: inline" src="img/logo.png" alt=""/>&ndash;&gt;-->
-                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                <!--<ul class="nav navbar-nav">-->
-                    <!--<li><a href="">¿Qué es el Marketing Olfativo?</a></li>-->
-                    <!--<li><a href="">Benefíciese de las ventajas</a></li>-->
-                    <!--<li><a href="">¿Por qué elegir ALGOR?</a></li>-->
-                    <!--<li><a href="">Funcionamiento</a></li>-->
-                    <!--<li><a href="">Servicio Post-Venta</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-            <!--&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
-            <!--&lt;!&ndash; /.container-fluid &ndash;&gt;-->
-        <!--</nav>-->
-    <!--</header>-->
 <header>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -69,16 +38,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href=""><img style="width: 200px ;" src="img/logo.png" alt=""/></a>            </div>
+                <a href=""><img src="img/logo.png" alt=""/></a>
+            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="">¿Qué es el Marketing Olfativo?</a></li>
-                    <li><a href="">Benefíciese de las ventajas</a></li>
-                    <li><a href="">¿Por qué elegir ALGOR?</a></li>
-                    <li><a href="">Funcionamiento</a></li>
-                    <li><a href="">Servicio Post-Venta</a></li>
+                <ul class="nav navbar-nav" id="my-nav-top">
+                    <li><a href=""><span class="glyphicon glyphicon-info-sign"></span>¿Qué es el Marketing Olfativo?</a>
+                    </li>
+                    <li><a href=""><span class="glyphicon glyphicon-thumbs-up"></span>Benefíciese de las
+                        ventajas</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-heart-empty"></span>¿Por qué elegir ALGOR?</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav" id="my-nav-bottom">
+                    <li><a href=""><span class="glyphicon glyphicon-cog"></span>Funcionamiento</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-user"></span>Servicio Post-Venta</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-th-list"></span>Catálogo de aromas</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-comment"></span>Contacte con nosotros</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -86,7 +63,8 @@
         <!-- /.container -->
     </nav>
 </header>
-    <article id="intro">
+<section id="intro">
+    <div class="container">
         <div class="row">
             <div class="col-md-4 ">
                 <img src="img/zen.png" alt=""/>
@@ -98,16 +76,18 @@
                 </p>
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
-    <article id="marketing-explanation">
+<section id="marketing-explanation">
+    <div class="container">
         <div class="row">
             <div class="col-md-8 text-center">
                 <p>
                     El Marketing Olfativo permite relacionar la marca de su negocio a un aroma determinando, influyendo
                     de forma positiva
                     en el comportamiento de compra de sus clientes y generando,
-                    entre otras cosas, una experiencia de comprar mucho más
+                    entre otras cosas, una experiencia de compra mucho más
                     satisfactoria.
                 </p>
             </div>
@@ -115,9 +95,11 @@
                 <img src="img/girl-flower.png" alt=""/>
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
-    <article id="benefits">
+<section id="benefits">
+    <div class="container">
         <div class="row">
             <div class="col-md-4 ">
                 <img src="img/madera-flor.png" alt=""/>
@@ -153,9 +135,11 @@
                 </ul>
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
-    <article id="why-algor">
+<section id="why-algor">
+    <div class="container">
         <div class="row">
             <div class="col-md-8 text-center">
                 <p>
@@ -180,9 +164,11 @@
                 <img src="img/fragance-bottle.png" alt=""/>
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
-    <article id="how-works">
+<section id="how-works">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <p>
@@ -201,42 +187,52 @@
                 <img src="img/ESQUEMA%20FUNCIONAMIENTO.png" alt=""/>
             </div>
         </div>
-    </article>
+    </div>
+</section>
 
 
-    <article id="spv">
+<section id="spv">
+    <div class="container">
         <div class="row">
             <div class="col-md-4 ">
                 <img src="img/spv.png" alt=""/>
             </div>
             <div class="col-md-8">
-                <ul>
-                    <li>
+                <ul class="list-unstyled">
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Estudio y asesoramiento en la selección de las fragancias.
                     </li>
-                    <li>
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Estudio técnico de las características instalaciones.
                     </li>
-                    <li>
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Instalación gratuita del sistema de aromatización.
                     </li>
-                    <li>
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Reposición periódica de los aromas.
                     </li>
-                    <li>
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Atención de las averías en un periodo máximo de 48 horas.
                     </li>
-                    <li>
+                    <li><span class="glyphicon glyphicon-ok hidden"></span>
                         Seguimiento continuo del funcionamiento de nuestros equipos
                         y sus consumos.
                     </li>
                 </ul>
             </div>
         </div>
-    </article>
+    </div>
 
-</div>
+</section>
+
+<!--</div>-->
 <!--BS Container-->
+
+<!--<ul class="list-unstyled">-->
+    <!--<li> <span class="glyphicon glyphicon-info-sign"></span> Info </li>-->
+    <!--<li> <span class="glyphicon glyphicon-link"></span> <a href="#">Link</a> </li>-->
+    <!--<li> <span class="glyphicon glyphicon-ok"></span> Check</li>-->
+<!--</ul>-->
 
 <footer>
 </footer>

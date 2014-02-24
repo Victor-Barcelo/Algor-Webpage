@@ -1,47 +1,68 @@
-@margin-contents: 500px;
-
+@section-padding-top: 250px;
+@upper-color : #269abc;
 //.navbar-default {
 //  background-color: transparent;
 //  border: none;
 //}
 
 body {
-  background-color: mintcream;
+  background-color: @upper-color;
 }
 
 header {
-  nav {
-    padding: 10px;
-  }
-  ul {
-    padding-top: 23px;
+  .navbar {
+    background-color: snow;
   }
   li {
-    font-size: 14px;
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  }
+  .navbar-nav {
+    &:nth-child(1) {
+      margin-left: 70px;
+    }
+    &:nth-child(2) {
+      margin-left: 50px;
+    }
+  }
+  img {
+    margin-top: 10px;
+    width: 200px;
+  }
+  .glyphicon {
+    margin-right: 15px;
   }
 }
 
-.article-text {
+.section-text {
   font-size: 30px;
-  font-family: arial, helvetica, verdana, sans-serif;
+  font-family: 'Exo 2', sans-serif;
 }
 
-article {
-  margin-bottom: @margin-contents;
+section {
+  padding-top: @section-padding-top;
+  height: 1200px;
+  img {
+    position: relative;
+  }
 }
 
 #intro {
-  margin-top: 200px;
+  background-color: @upper-color;
+  width: 100%;
   p {
     padding-top: 100px;
-    .article-text;
+    .section-text;
   }
 }
 
 #marketing-explanation {
+  background-color: #a6e1ec;
+  width: 100%;
   p {
     padding-top: 90px;
-    .article-text;
+    .section-text;
   }
   img {
     width: 400px;
@@ -50,6 +71,7 @@ article {
 }
 
 #benefits {
+  background-color: lavender;
   img {
     width: 300px;
     height: 300px;
@@ -57,15 +79,16 @@ article {
   ul {
   }
   li {
-    .article-text;
+    .section-text;
     font-size: 20px;
     margin-top: 2em;
   }
 }
 
 #why-algor {
+  background-color: lavenderblush;
   p {
-    .article-text;
+    .section-text;
     font-size: 20px;
   }
   img {
@@ -76,8 +99,9 @@ article {
 }
 
 #how-works {
+  background-color: #d9edf7;
   p {
-    .article-text;
+    .section-text;
     font-size: 20px;
   }
   img {
@@ -87,13 +111,14 @@ article {
 }
 
 #spv {
+  background-color: wheat;
   img {
     width: 300px;
   }
   ul {
   }
   li {
-    .article-text;
+    .section-text;
     font-size: 20px;
     margin-top: 2em;
   }
@@ -105,12 +130,12 @@ footer {
   width: 100%;
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
   .navbar {
-    padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    //    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
   }
 
   .top-nav-collapse {
@@ -118,6 +143,3 @@ footer {
     padding: 0;
   }
 }
-
-
-
